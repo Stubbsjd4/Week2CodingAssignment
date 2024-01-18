@@ -1,0 +1,71 @@
+html{
+    font-family:'pacifico', cursive; /*change font for all text*/
+    Background-color: #efe8d5; /*makes html page background light tan */
+}
+
+body{
+    Margin: 1rem 5rem; /*gives a larger margin that looks better */
+}
+
+h1{
+    text-align: center; /*center the header */
+}
+
+img{
+    max-width: 100%; /*allows image to change size to max width depending on users dimension view */
+    height: auto; /*allows image to change height size depending on users dimension view */
+    border-radius: 5px; /*smooths the corners */
+}
+
+p{
+    text-align: justify; /*aligns text to justify left/center/right */
+}
+
+section{
+    background-color: #4e3629; /*makes background for section brown */
+    border-radius: 1rem; /*smooths coners of the section border */
+}
+
+h3{
+    margin: 1rem; /*adds margin */
+    color: #19140c; /*makes header black */
+}
+
+ul li{
+    padding: 5px 0; /*makes padding area thicker */
+    color: #bfa96e; /*changes text color to light gold */
+    list-style-type: square; /*changes ul dots to squares */
+}
+
+.question{
+    text-decoration: underline; /*underlines the questions */
+}
+
+th,td{
+    border-bottom: 1px solid black; /*divides the table rows */
+}
+
+tr:hover{
+    background-color: #efe8d5; /*changes background color when hovering over table rows */
+}
+
+form{
+    text-align: center; /*moves the form to the center of the page */
+}
+
+#OrderForm{
+    text-align: center; /*moves header to the center */
+    font-size: larger; /*makes the header font larger */
+}
+
+hr{
+    height: 2px; /*thickens the thematic break */
+    background-color: #000000; /*makes thematic break black */
+    border: none; /*makes thematic break one solid color */
+}
+
+a{
+    Display: block; /*makes links a block so text align can work on links */
+    text-align: center; /*moves links to the center */
+}
+
